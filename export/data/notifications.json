@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "receiver_id": "550e8400-e29b-41d4-a716-446655440000",
+    "sender_id": "550e8400-e29b-41d4-a716-446655440001",
+    "type": "friend_request",
+    "subject": "Nova solicitação de amizade",
+    "content": "João enviou uma solicitação de amizade para você.",
+    "is_read": false,
+    "timestamp": "2024-01-01T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "receiver_id": "550e8400-e29b-41d4-a716-446655440000",
+    "sender_id": null,
+    "type": "system",
+    "subject": "Bem-vindo!",
+    "content": "Bem-vindo ao nosso jogo! Divirta-se explorando o mundo virtual.",
+    "is_read": true,
+    "timestamp": "2024-01-01T08:00:00Z"
+  }
+]

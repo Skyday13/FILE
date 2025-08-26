@@ -1,0 +1,437 @@
+[
+  {
+    "collection": "app_users",
+    "meta": {
+      "collection": "app_users",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "app_users",
+      "sql": "CREATE TABLE `app_users` (`id` integer not null primary key autoincrement, `sex` varchar(255) null, `level` integer null default '1', `xp` integer null default '0', `needs` json null, `bio` text null, `location` varchar(255) null, `join_date` datetime null, `is_ghost` boolean null default '0', `match_info` json null, `profile_color` varchar(255) null, `subscription_tier` varchar(255) null, `parents` json null, `children` json null, `pending_received_relationship_requests` json null, `privacy_settings` json null, `security_settings` json null, `chat_settings` json null, `mailbox_settings` json null, `pinned_friends` json null, `unlocked_achievement_ids` json null, `placed_furniture` json null, `daily_reward_state` json null, `settings` json null, `coins` integer null default '0', `gems` integer null default '0', `volts` integer null default '0', `equipped_items` json null, `last_login` datetime null, `last_work_timestamp` bigint null, `last_ip` varchar(255) null, `last_location` varchar(255) null, `last_latitude` float null, `last_longitude` float null, `online` boolean null default '0', `last_seen` datetime null, `mac_address` varchar(255) null, `device_info` json null, `birth_date` date null, `parent_email` varchar(255) null)"
+    }
+  },
+  {
+    "collection": "app_users_friends",
+    "meta": {
+      "collection": "app_users_friends",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "app_users_friends",
+      "sql": "CREATE TABLE `app_users_friends` (`id` integer not null primary key autoincrement, `app_users_id` char(36) null, `friends_id` char(36) null)"
+    }
+  },
+  {
+    "collection": "currency_packs",
+    "meta": {
+      "collection": "currency_packs",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "currency_packs",
+      "sql": "CREATE TABLE `currency_packs` (`id` integer not null primary key autoincrement, `type` varchar(255) null, `name` varchar(255) null, `amount` integer null, `bonus` integer null default '0', `price` float null, `icon` varchar(255) null, `tag` varchar(255) null)"
+    }
+  },
+  {
+    "collection": "direct_messages",
+    "meta": {
+      "collection": "direct_messages",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "direct_messages",
+      "sql": "CREATE TABLE `direct_messages` (`id` integer not null primary key autoincrement, `sender_id` char(36) null, `receiver_id` char(36) null, `text` text null, `attachments` json null, `reactions` json null, `reply_to` varchar(255) null, `is_read` boolean null default '0', `is_edited` boolean null default '0', `is_deleted` boolean null default '0', `timestamp` datetime null)"
+    }
+  },
+  {
+    "collection": "furniture_items",
+    "meta": {
+      "collection": "furniture_items",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "furniture_items",
+      "sql": "CREATE TABLE `furniture_items` (`id` integer not null primary key autoincrement, `name` varchar(255) null, `category` varchar(255) null, `subcategory` varchar(255) null, `price_coins` integer null, `price_gems` integer null, `images` json null, `keywords` json null, `width` integer null, `height` integer null, `collider` json null)"
+    }
+  },
+  {
+    "collection": "notifications",
+    "meta": {
+      "collection": "notifications",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "notifications",
+      "sql": "CREATE TABLE `notifications` (`id` integer not null primary key autoincrement, `receiver_id` char(36) null, `sender_id` char(36) null, `type` varchar(255) null, `subject` text null, `content` text null, `is_read` boolean null default '0', `timestamp` datetime null)"
+    }
+  },
+  {
+    "collection": "profile_comments",
+    "meta": {
+      "collection": "profile_comments",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "profile_comments",
+      "sql": "CREATE TABLE `profile_comments` (`id` integer not null primary key autoincrement, `profile_owner_id` char(36) null, `author_id` char(36) null, `text` text null, `timestamp` datetime null)"
+    }
+  },
+  {
+    "collection": "punishments",
+    "meta": {
+      "collection": "punishments",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "punishments",
+      "sql": "CREATE TABLE `punishments` (`id` integer not null primary key autoincrement, `user_id` char(36) null, `moderator_id` char(36) null, `sanction_type` varchar(255) null, `reason_key` varchar(255) null, `duration_ms` bigint null, `expires_at` datetime null, `timestamp` datetime null)"
+    }
+  },
+  {
+    "collection": "reports",
+    "meta": {
+      "collection": "reports",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "reports",
+      "sql": "CREATE TABLE `reports` (`id` integer not null primary key autoincrement, `reporter_id` char(36) null, `reported_user_id` char(36) null, `type` varchar(255) null, `status` varchar(255) null default 'Pending', `is_severe` boolean null default '0', `reported_content` text null, `reporter_comments` text null, `context` json null, `timestamp` datetime null)"
+    }
+  },
+  {
+    "collection": "shop_items",
+    "meta": {
+      "collection": "shop_items",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "shop_items",
+      "sql": "CREATE TABLE `shop_items` (`id` integer not null primary key autoincrement, `name` varchar(255) null, `category` varchar(255) null, `subcategory` varchar(255) null, `price_coins` integer null, `price_gems` integer null, `image_url` varchar(255) null, `keywords` json null, `asset_url` varchar(255) null)"
+    }
+  },
+  {
+    "collection": "support_ticket_messages",
+    "meta": {
+      "collection": "support_ticket_messages",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "support_ticket_messages",
+      "sql": "CREATE TABLE `support_ticket_messages` (`id` integer not null primary key autoincrement, `ticket_id` varchar(255) null, `sender_id` char(36) null, `message` text null, `timestamp` datetime null)"
+    }
+  },
+  {
+    "collection": "support_tickets",
+    "meta": {
+      "collection": "support_tickets",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "support_tickets",
+      "sql": "CREATE TABLE `support_tickets` (`id` integer not null primary key autoincrement, `user_id` char(36) null, `subject` text null, `status` varchar(255) null default 'Open', `timestamp` datetime null)"
+    }
+  },
+  {
+    "collection": "users_blocked",
+    "meta": {
+      "collection": "users_blocked",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "users_blocked",
+      "sql": "CREATE TABLE `users_blocked` (`id` integer not null primary key autoincrement, `app_users_id` char(36) null, `blocked_user_id` char(36) null, `timestamp` datetime null)"
+    }
+  },
+  {
+    "collection": "users_furniture",
+    "meta": {
+      "collection": "users_furniture",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "users_furniture",
+      "sql": "CREATE TABLE `users_furniture` (`id` integer not null primary key autoincrement, `app_users_id` char(36) null, `furniture_items_id` varchar(255) null)"
+    }
+  },
+  {
+    "collection": "users_inventory",
+    "meta": {
+      "collection": "users_inventory",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": null,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "name": "users_inventory",
+      "sql": "CREATE TABLE `users_inventory` (`id` integer not null primary key autoincrement, `app_users_id` char(36) null, `shop_items_id` varchar(255) null)"
+    }
+  }
+]

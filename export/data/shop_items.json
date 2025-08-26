@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Camiseta Básica",
+    "category": "roupas",
+    "subcategory": "camisetas",
+    "price_coins": 50,
+    "price_gems": 0,
+    "image_url": "tshirt_basic.png",
+    "keywords": ["camiseta", "roupa", "vestuário", "básico"],
+    "asset_url": "assets/clothing/tshirt_basic.glb"
+  },
+  {
+    "id": 2,
+    "name": "Calça Jeans",
+    "category": "roupas",
+    "subcategory": "calças",
+    "price_coins": 100,
+    "price_gems": 0,
+    "image_url": "jeans_pants.png",
+    "keywords": ["calça", "jeans", "roupa", "vestuário"],
+    "asset_url": "assets/clothing/jeans_pants.glb"
+  },
+  {
+    "id": 3,
+    "name": "Tênis Esportivo",
+    "category": "roupas",
+    "subcategory": "calçados",
+    "price_coins": 150,
+    "price_gems": 0,
+    "image_url": "sports_shoes.png",
+    "keywords": ["tênis", "calçado", "esportivo", "roupa"],
+    "asset_url": "assets/clothing/sports_shoes.glb"
+  }
+]

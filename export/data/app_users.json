@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "sex": "M",
+    "level": 1,
+    "xp": 0,
+    "needs": {
+      "hunger": { "value": 100, "lastUpdated": "2024-01-01T00:00:00Z" },
+      "energy": { "value": 100, "lastUpdated": "2024-01-01T00:00:00Z" },
+      "fun": { "value": 100, "lastUpdated": "2024-01-01T00:00:00Z" },
+      "hygiene": { "value": 100, "lastUpdated": "2024-01-01T00:00:00Z" },
+      "social": { "value": 100, "lastUpdated": "2024-01-01T00:00:00Z" }
+    },
+    "bio": "Olá! Sou novo aqui!",
+    "location": "São Paulo, Brasil",
+    "join_date": "2024-01-01T00:00:00Z",
+    "is_ghost": false,
+    "match_info": null,
+    "profile_color": "#4A90E2",
+    "subscription_tier": "free",
+    "parents": [],
+    "children": [],
+    "pending_received_relationship_requests": [],
+    "privacy_settings": {
+      "profileVisibility": "everyone",
+      "commenting": "everyone",
+      "allowMentionsFromStrangers": true,
+      "allowInteractionsFromStrangers": true,
+      "allowRelationshipRequests": true,
+      "hideBlockedUsers": false,
+      "blockByNetwork": false
+    },
+    "security_settings": {
+      "twoFactorEnabled": false,
+      "linkedGoogle": false,
+      "linkedMicrosoft": false
+    },
+    "chat_settings": {
+      "autoTranslate": false,
+      "hideEmojis": false,
+      "collapsibleChat": false,
+      "collapsibleChatMode": "showMessages",
+      "chatBubbleColor": "black"
+    },
+    "mailbox_settings": {
+      "autoCleanInbox": true,
+      "blockStrangerEmails": false,
+      "blockFriendRequests": false,
+      "autoAcceptFriendRequests": false
+    },
+    "pinned_friends": [],
+    "unlocked_achievement_ids": [],
+    "placed_furniture": [],
+    "daily_reward_state": {
+      "lastClaimDate": null,
+      "currentStreak": 0,
+      "totalDaysClaimed": 0
+    },
+    "settings": {
+      "language": "pt-br",
+      "graphics": {
+        "preset": "high",
+        "particles": true,
+        "bloomStrength": 1.2
+      },
+      "sound": {
+        "masterVolume": 75,
+        "musicVolume": 50,
+        "interfaceVolume": 80,
+        "ambientSounds": true,
+        "messageSounds": true,
+        "musicEnabled": true,
+        "interfaceSounds": true,
+        "allSoundsDisabled": false
+      },
+      "themeColor": null,
+      "interfaceTheme": "default"
+    },
+    "coins": 100,
+    "gems": 5,
+    "volts": 0,
+    "equipped_items": {
+      "head": null,
+      "body": null,
+      "legs": null,
+      "feet": null,
+      "accessory": null
+    },
+    "last_login": "2024-01-01T00:00:00Z",
+    "last_work_timestamp": null,
+    "last_ip": "192.168.1.1",
+    "last_location": "São Paulo, Brasil",
+    "last_latitude": -23.5505,
+    "last_longitude": -46.6333,
+    "online": false,
+    "last_seen": "2024-01-01T00:00:00Z",
+    "mac_address": "00:11:22:33:44:55",
+    "device_info": {
+      "platform": "web",
+      "browser": "Chrome",
+      "version": "120.0.0.0"
+    },
+    "birth_date": "2010-01-01",
+    "parent_email": "parent@example.com"
+  }
+]

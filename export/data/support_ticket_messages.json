@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "ticket_id": "1",
+    "sender_id": "550e8400-e29b-41d4-a716-446655440000",
+    "message": "Não consigo fazer login no jogo. Aparece erro de conexão.",
+    "timestamp": "2024-01-01T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "ticket_id": "1",
+    "sender_id": "550e8400-e29b-41d4-a716-446655440002",
+    "message": "Olá! Vou ajudá-lo com esse problema. Pode me dizer qual erro específico aparece?",
+    "timestamp": "2024-01-01T09:15:00Z"
+  }
+]
