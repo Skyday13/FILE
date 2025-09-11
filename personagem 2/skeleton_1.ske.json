@@ -1,0 +1,2190 @@
+{
+  "frameRate": 24,
+  "name": "placeholder",
+  "stage": "Armature",
+  "version": "5.5",
+  "compatibleVersion": "5.5",
+  "armature": [
+    {
+      "type": "Armature",
+      "frameRate": 24,
+      "name": "Armature",
+      "aabb": {
+        "x": -52.52,
+        "y": -214.6,
+        "width": 124,
+        "height": 219.85
+      },
+      "bone": [
+        {
+          "name": "root",
+          "transform": {
+            "skX": -0.491,
+            "skY": -0.491
+          }
+        },
+        {
+          "length": 22,
+          "name": "spine",
+          "parent": "root",
+          "transform": {
+            "x": 7.4853,
+            "y": -89.3929,
+            "skX": -87.4977,
+            "skY": -87.4977
+          }
+        },
+        {
+          "name": "ik_hand_r",
+          "parent": "root",
+          "transform": {
+            "x": 34.267,
+            "y": -90.9949
+          }
+        },
+        {
+          "name": "ik_foot_r",
+          "parent": "root",
+          "transform": {
+            "x": 9.2656,
+            "y": -5.761
+          }
+        },
+        {
+          "name": "ik_foot_l",
+          "parent": "root",
+          "transform": {
+            "x": -10.5694,
+            "y": -6.7073
+          }
+        },
+        {
+          "name": "ik_rand_l",
+          "parent": "root",
+          "transform": {
+            "x": -30.2939,
+            "y": -79.2683
+          }
+        },
+        {
+          "length": 62,
+          "name": "upper_leg_l",
+          "parent": "spine",
+          "transform": {
+            "x": 18.8187,
+            "y": -13.8829,
+            "skX": -178.6902,
+            "skY": -178.6902
+          }
+        },
+        {
+          "length": 62,
+          "name": "upper_leg_r",
+          "parent": "spine",
+          "transform": {
+            "x": 18.7346,
+            "y": 5.8646,
+            "skX": 176.5163,
+            "skY": 176.5163
+          }
+        },
+        {
+          "length": 25,
+          "name": "spine1",
+          "parent": "spine",
+          "transform": {
+            "x": 22.022,
+            "y": -0.1334,
+            "skX": -5.5431,
+            "skY": -5.5431
+          }
+        },
+        {
+          "length": 15,
+          "name": "spine2",
+          "parent": "spine1",
+          "transform": {
+            "x": 25.5512,
+            "y": -0.2081,
+            "skX": -19.2812,
+            "skY": -19.2812
+          }
+        },
+        {
+          "length": 39,
+          "name": "lower_leg_r",
+          "parent": "upper_leg_r",
+          "transform": {
+            "x": 63.2548,
+            "y": 0.2836,
+            "skX": -3.0511,
+            "skY": -3.0511
+          }
+        },
+        {
+          "length": 39,
+          "name": "lower_leg_l",
+          "parent": "upper_leg_l",
+          "transform": {
+            "x": 63.2548,
+            "y": 0.2836,
+            "skX": -3.0511,
+            "skY": -3.0511
+          }
+        },
+        {
+          "length": 33,
+          "name": "upper_arm_r",
+          "parent": "spine2",
+          "transform": {
+            "x": 7.4646,
+            "y": 11.7402,
+            "skX": -174.2335,
+            "skY": -174.2335
+          }
+        },
+        {
+          "length": 17,
+          "name": "neck",
+          "parent": "spine2",
+          "transform": {
+            "x": 15.1943,
+            "y": -0.0807,
+            "skX": 32.5299,
+            "skY": 32.5299
+          }
+        },
+        {
+          "length": 19,
+          "name": "foot_l",
+          "parent": "lower_leg_l",
+          "transform": {
+            "x": 38.65,
+            "y": 1.15,
+            "skX": -72.3115,
+            "skY": -72.3115
+          }
+        },
+        {
+          "length": 19,
+          "name": "foot_r",
+          "parent": "lower_leg_r",
+          "transform": {
+            "x": 38.65,
+            "y": 1.15,
+            "skX": -72.3115,
+            "skY": -72.3115
+          }
+        },
+        {
+          "length": 34,
+          "name": "upper_arm_l",
+          "parent": "spine2",
+          "transform": {
+            "x": 10.9176,
+            "y": -4.8437,
+            "skX": -129.3676,
+            "skY": -129.3676
+          }
+        },
+        {
+          "length": 39,
+          "name": "head",
+          "parent": "neck",
+          "transform": {
+            "x": 17.4449,
+            "y": -0.0008,
+            "skX": -3.293,
+            "skY": -3.293
+          }
+        },
+        {
+          "length": 33,
+          "name": "lower_arm_l",
+          "parent": "upper_arm_l",
+          "transform": {
+            "x": 34.4639,
+            "skX": -5.7774,
+            "skY": -5.7774
+          }
+        },
+        {
+          "length": 27,
+          "name": "lower_arm_r",
+          "parent": "upper_arm_r",
+          "transform": {
+            "x": 33.5567,
+            "skX": -5.0223,
+            "skY": -5.0223
+          }
+        },
+        {
+          "length": 13,
+          "name": "hand_l",
+          "parent": "lower_arm_l",
+          "transform": {
+            "x": 33.0608,
+            "y": -0.0463,
+            "skX": -13.2272,
+            "skY": -13.2272
+          }
+        },
+        {
+          "length": 12,
+          "name": "hand_r",
+          "parent": "lower_arm_r",
+          "transform": {
+            "x": 27.3617,
+            "y": 0.0074,
+            "skX": -10.2577,
+            "skY": -10.2577
+          }
+        },
+        {
+          "length": 16,
+          "name": "hair",
+          "parent": "head",
+          "transform": {
+            "x": 39.6337,
+            "y": -0.4705,
+            "skX": 86.1426,
+            "skY": 86.1426
+          }
+        },
+        {
+          "length": 15,
+          "name": "eyes",
+          "parent": "head",
+          "transform": {
+            "x": 18.1231,
+            "y": 0.325,
+            "skX": 77.9594,
+            "skY": 77.9594
+          }
+        },
+        {
+          "length": 13,
+          "name": "mouth",
+          "parent": "head",
+          "transform": {
+            "x": 8.8966,
+            "y": -0.1677,
+            "skX": 119.8709,
+            "skY": 119.8709
+          }
+        }
+      ],
+      "slot": [
+        {
+          "name": "hand1",
+          "parent": "hand_l"
+        },
+        {
+          "name": "lower_arm1",
+          "parent": "lower_arm_l"
+        },
+        {
+          "name": "upper_arm1",
+          "parent": "upper_arm_l"
+        },
+        {
+          "name": "foot11",
+          "parent": "foot_l"
+        },
+        {
+          "name": "upper_leg_l",
+          "parent": "upper_leg_l"
+        },
+        {
+          "name": "lower_leg11",
+          "parent": "lower_leg_l"
+        },
+        {
+          "name": "spine",
+          "parent": "spine2"
+        },
+        {
+          "name": "foot",
+          "parent": "foot_r"
+        },
+        {
+          "name": "upper_leg",
+          "parent": "upper_leg_r"
+        },
+        {
+          "name": "lower_leg",
+          "parent": "lower_leg_r"
+        },
+        {
+          "displayIndex": 1,
+          "name": "bra",
+          "parent": "spine1"
+        },
+        {
+          "name": "upper_arm",
+          "parent": "upper_arm_r"
+        },
+        {
+          "name": "lower_arm",
+          "parent": "lower_arm_r"
+        },
+        {
+          "name": "head",
+          "parent": "head"
+        },
+        {
+          "name": "neck",
+          "parent": "neck"
+        },
+        {
+          "name": "hand",
+          "parent": "hand_r"
+        },
+        {
+          "name": "panties",
+          "parent": "spine"
+        },
+        {
+          "displayIndex": 3,
+          "name": "eyes",
+          "parent": "eyes"
+        },
+        {
+          "displayIndex": 11,
+          "name": "mouth",
+          "parent": "mouth"
+        }
+      ],
+      "ik": [
+        {
+          "name": "bone_ik2",
+          "bone": "lower_leg_r",
+          "target": "ik_foot_r"
+        },
+        {
+          "name": "bone_ik3",
+          "bone": "lower_leg_l",
+          "target": "ik_foot_l"
+        },
+        {
+          "name": "bone_ik1",
+          "bone": "lower_arm_l",
+          "target": "ik_rand_l"
+        },
+        {
+          "name": "bone_ik",
+          "bone": "lower_arm_r",
+          "target": "ik_hand_r"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "upper_arm",
+              "display": [
+                {
+                  "name": "upper_arm",
+                  "transform": {
+                    "x": 16.01,
+                    "y": 1.29,
+                    "skX": -93.33,
+                    "skY": -93.33
+                  }
+                }
+              ]
+            },
+            {
+              "name": "upper_leg_l",
+              "display": [
+                {
+                  "name": "upper_leg",
+                  "transform": {
+                    "x": 30.32,
+                    "y": 1.82,
+                    "skX": -93.05,
+                    "skY": -93.05
+                  }
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "display": [
+                {
+                  "name": "head",
+                  "transform": {
+                    "x": 15.58,
+                    "y": 0.1,
+                    "skX": 82.22,
+                    "skY": 82.22
+                  }
+                }
+              ]
+            },
+            {
+              "name": "spine",
+              "display": [
+                {
+                  "type": "mesh",
+                  "name": "spine",
+                  "offset": 0,
+                  "userEdges": []
+                },
+                {
+                  "type": "mesh",
+                  "name": "spine_side",
+                  "offset": 401,
+                  "userEdges": []
+                }
+              ]
+            },
+            {
+              "name": "hand",
+              "display": [
+                {
+                  "name": "hand",
+                  "transform": {
+                    "x": 11.6,
+                    "y": -0.95,
+                    "skX": -78.05,
+                    "skY": -78.05
+                  }
+                }
+              ]
+            },
+            {
+              "name": "upper_leg",
+              "display": [
+                {
+                  "name": "upper_leg",
+                  "transform": {
+                    "x": 30.32,
+                    "y": 1.82,
+                    "skX": -93.05,
+                    "skY": -93.05
+                  }
+                }
+              ]
+            },
+            {
+              "name": "panties",
+              "display": [
+                {
+                  "type": "mesh",
+                  "name": "panties_back",
+                  "offset": 792,
+                  "userEdges": []
+                },
+                {
+                  "type": "mesh",
+                  "name": "panties_side",
+                  "offset": 1248,
+                  "userEdges": []
+                },
+                {
+                  "type": "mesh",
+                  "name": "panties_front",
+                  "offset": 1488,
+                  "userEdges": []
+                }
+              ]
+            },
+            {
+              "name": "lower_arm1",
+              "display": [
+                {
+                  "name": "lower_arm",
+                  "transform": {
+                    "x": 14.69,
+                    "y": -0.46,
+                    "skX": -88.88,
+                    "skY": -88.88
+                  }
+                }
+              ]
+            },
+            {
+              "name": "bra",
+              "display": [
+                {
+                  "type": "mesh",
+                  "name": "bra_front",
+                  "offset": 1836,
+                  "userEdges": []
+                },
+                {
+                  "type": "mesh",
+                  "name": "bra_back",
+                  "offset": 2037,
+                  "userEdges": []
+                },
+                {
+                  "type": "mesh",
+                  "name": "bra_side",
+                  "offset": 2059,
+                  "userEdges": []
+                }
+              ]
+            },
+            {
+              "name": "mouth",
+              "display": [
+                {
+                  "name": "mouth/a",
+                  "transform": {
+                    "x": 10.6,
+                    "y": 2.55,
+                    "skX": -41.75,
+                    "skY": -41.75,
+                    "scX": 0.1372,
+                    "scY": 0.1372
+                  }
+                },
+                {
+                  "name": "mouth/u",
+                  "transform": {
+                    "x": 10.73,
+                    "y": 3.98,
+                    "skX": -43.25,
+                    "skY": -43.25,
+                    "scX": 0.1312,
+                    "scY": 0.1312
+                  }
+                },
+                {
+                  "name": "mouth/r",
+                  "transform": {
+                    "x": 10.22,
+                    "y": 3.83,
+                    "skX": -44.51,
+                    "skY": -44.51,
+                    "scX": 0.1335,
+                    "scY": 0.1335
+                  }
+                },
+                {
+                  "name": "mouth/q",
+                  "transform": {
+                    "x": 10.49,
+                    "y": 3.77,
+                    "skX": -41.33,
+                    "skY": -41.33,
+                    "scX": 0.148,
+                    "scY": 0.148
+                  }
+                },
+                {
+                  "name": "mouth/o",
+                  "transform": {
+                    "x": 10.74,
+                    "y": 4.25,
+                    "skX": -45.4,
+                    "skY": -45.4,
+                    "scX": 0.1122,
+                    "scY": 0.1122
+                  }
+                },
+                {
+                  "name": "mouth/i",
+                  "transform": {
+                    "x": 9.9,
+                    "y": 3.24,
+                    "skX": -41.85,
+                    "skY": -41.85,
+                    "scX": 0.142,
+                    "scY": 0.142
+                  }
+                },
+                {
+                  "name": "mouth/g",
+                  "transform": {
+                    "x": 10.46,
+                    "y": 4.39,
+                    "skX": -40.62,
+                    "skY": -40.62,
+                    "scX": 0.1255,
+                    "scY": 0.1255
+                  }
+                },
+                {
+                  "name": "mouth/f",
+                  "transform": {
+                    "x": 9.51,
+                    "y": 3.31,
+                    "skX": -40.34,
+                    "skY": -40.34,
+                    "scX": 0.1135,
+                    "scY": 0.1135
+                  }
+                },
+                {
+                  "name": "mouth/e",
+                  "transform": {
+                    "x": 9.95,
+                    "y": 3.48,
+                    "skX": -41.62,
+                    "skY": -41.62,
+                    "scX": 0.1611,
+                    "scY": 0.1611
+                  }
+                },
+                {
+                  "name": "mouth/ch",
+                  "transform": {
+                    "x": 9.23,
+                    "y": 3,
+                    "skX": -42.01,
+                    "skY": -42.01,
+                    "scX": 0.129,
+                    "scY": 0.129
+                  }
+                },
+                {
+                  "name": "mouth/c",
+                  "transform": {
+                    "x": 10.78,
+                    "y": 4.6,
+                    "skX": 137.02,
+                    "skY": 137.02,
+                    "scX": 0.1461,
+                    "scY": 0.1461
+                  }
+                },
+                {
+                  "name": "mouth/b",
+                  "transform": {
+                    "x": 9.42,
+                    "y": 2.53,
+                    "skX": -45.8,
+                    "skY": -45.8,
+                    "scX": 0.1605,
+                    "scY": 0.1605
+                  }
+                }
+              ]
+            },
+            {
+              "name": "foot11",
+              "display": [
+                {
+                  "name": "foot",
+                  "transform": {
+                    "x": 7.29,
+                    "y": -0.88,
+                    "skX": -17.69,
+                    "skY": -17.69
+                  }
+                }
+              ]
+            },
+            {
+              "name": "lower_arm",
+              "display": [
+                {
+                  "name": "lower_arm",
+                  "transform": {
+                    "x": 13.23,
+                    "y": 0.04,
+                    "skX": -84.3,
+                    "skY": -84.3
+                  }
+                }
+              ]
+            },
+            {
+              "name": "lower_leg11",
+              "display": [
+                {
+                  "name": "lower_leg",
+                  "transform": {
+                    "x": 13.71,
+                    "y": -0.55,
+                    "skX": -90,
+                    "skY": -90
+                  }
+                }
+              ]
+            },
+            {
+              "name": "neck",
+              "display": [
+                {
+                  "name": "neck",
+                  "transform": {
+                    "x": 7.26,
+                    "y": 1.61,
+                    "skX": 83.18,
+                    "skY": 83.18
+                  }
+                }
+              ]
+            },
+            {
+              "name": "foot",
+              "display": [
+                {
+                  "name": "foot",
+                  "transform": {
+                    "x": 7.29,
+                    "y": -0.88,
+                    "skX": -17.69,
+                    "skY": -17.69
+                  }
+                }
+              ]
+            },
+            {
+              "name": "hand1",
+              "display": [
+                {
+                  "name": "hand",
+                  "transform": {
+                    "x": 10.89,
+                    "y": -1.82,
+                    "skX": -75.66,
+                    "skY": -75.66
+                  }
+                }
+              ]
+            },
+            {
+              "name": "lower_leg",
+              "display": [
+                {
+                  "name": "lower_leg",
+                  "transform": {
+                    "x": 13.71,
+                    "y": -0.55,
+                    "skX": -90,
+                    "skY": -90
+                  }
+                }
+              ]
+            },
+            {
+              "name": "eyes",
+              "display": [
+                {
+                  "name": "faces/happy_back",
+                  "transform": {
+                    "x": 4.02,
+                    "y": 8.21,
+                    "skX": 16.29,
+                    "skY": 16.29,
+                    "scX": 0.642,
+                    "scY": 0.642
+                  }
+                },
+                {
+                  "name": "faces/happy_front",
+                  "transform": {
+                    "x": -0.03,
+                    "y": 7.66,
+                    "scX": 0.7441,
+                    "scY": 0.7441
+                  }
+                },
+                {
+                  "name": "faces/idle_back",
+                  "transform": {
+                    "x": 2.24,
+                    "y": 4.78,
+                    "skX": 6.49,
+                    "skY": 6.49,
+                    "scX": 0.8261,
+                    "scY": 0.8261
+                  }
+                },
+                {
+                  "name": "faces/idle_front",
+                  "transform": {
+                    "x": -0.38,
+                    "y": 4.19,
+                    "scX": 0.7816,
+                    "scY": 0.7816
+                  }
+                }
+              ]
+            },
+            {
+              "name": "upper_arm1",
+              "display": [
+                {
+                  "name": "upper_arm",
+                  "transform": {
+                    "x": 17.38,
+                    "y": 1.78,
+                    "skX": -94.66,
+                    "skY": -94.66
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "duration": 60,
+          "playTimes": 0,
+          "name": "idle_quarter_back_view",
+          "zOrder": 0,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "bone": {
+            "spine": [
+              11,
+              6,
+              12,
+              14
+            ],
+            "upper_leg_r": [
+              11,
+              20,
+              12,
+              26
+            ],
+            "upper_leg_l": [
+              11,
+              32,
+              12,
+              38
+            ],
+            "spine1": [
+              12,
+              44
+            ],
+            "lower_leg_l": [
+              12,
+              52
+            ],
+            "lower_leg_r": [
+              12,
+              60
+            ],
+            "upper_arm_r": [
+              12,
+              68
+            ],
+            "upper_arm_l": [
+              11,
+              74,
+              12,
+              82
+            ],
+            "foot_l": [
+              12,
+              90
+            ],
+            "foot_r": [
+              12,
+              96
+            ],
+            "lower_arm_r": [
+              12,
+              102
+            ],
+            "lower_arm_l": [
+              12,
+              110
+            ],
+            "head": [
+              12,
+              118
+            ],
+            "hand_r": [
+              12,
+              124,
+              13,
+              130
+            ],
+            "ik_rand_l": [
+              11,
+              136
+            ]
+          },
+          "slot": {
+            "eyes": [
+              20,
+              142
+            ],
+            "mouth": [
+              20,
+              148
+            ]
+          }
+        },
+        {
+          "duration": 21,
+          "playTimes": 0,
+          "name": "walk_quarter_back_view",
+          "zOrder": 154,
+          "offset": [
+            0,
+            72,
+            97
+          ],
+          "bone": {
+            "spine": [
+              11,
+              160
+            ],
+            "ik_hand_r": [
+              11,
+              173
+            ],
+            "ik_foot_r": [
+              11,
+              186,
+              12,
+              199
+            ],
+            "ik_foot_l": [
+              11,
+              208
+            ],
+            "ik_rand_l": [
+              11,
+              220
+            ],
+            "upper_leg_l": [
+              11,
+              231,
+              12,
+              244
+            ],
+            "upper_leg_r": [
+              11,
+              257,
+              12,
+              269
+            ],
+            "lower_leg_r": [
+              11,
+              282,
+              12,
+              290
+            ],
+            "lower_leg_l": [
+              11,
+              301,
+              12,
+              309
+            ],
+            "spine2": [
+              12,
+              320
+            ],
+            "foot_r": [
+              11,
+              326,
+              12,
+              332
+            ],
+            "upper_arm_l": [
+              11,
+              344,
+              12,
+              352
+            ],
+            "upper_arm_r": [
+              12,
+              362
+            ],
+            "neck": [
+              12,
+              374
+            ],
+            "foot_l": [
+              12,
+              385
+            ],
+            "head": [
+              12,
+              397
+            ],
+            "lower_arm_r": [
+              11,
+              409,
+              12,
+              415
+            ],
+            "hand_r": [
+              12,
+              426
+            ],
+            "hand_l": [
+              11,
+              438,
+              12,
+              444
+            ]
+          },
+          "slot": {
+            "eyes": [
+              20,
+              455
+            ],
+            "mouth": [
+              20,
+              461
+            ]
+          }
+        },
+        {
+          "duration": 24,
+          "playTimes": 0,
+          "name": "walk_right_view",
+          "zOrder": 467,
+          "offset": [
+            0,
+            382,
+            432
+          ],
+          "bone": {
+            "spine": [
+              11,
+              474
+            ],
+            "ik_hand_r": [
+              11,
+              486,
+              12,
+              496
+            ],
+            "ik_foot_r": [
+              11,
+              503
+            ],
+            "ik_foot_l": [
+              11,
+              514
+            ],
+            "ik_rand_l": [
+              11,
+              526
+            ],
+            "upper_leg_l": [
+              11,
+              535,
+              12,
+              545
+            ],
+            "upper_leg_r": [
+              11,
+              557,
+              12,
+              568
+            ],
+            "spine1": [
+              12,
+              580
+            ],
+            "lower_leg_r": [
+              11,
+              588
+            ],
+            "lower_leg_l": [
+              11,
+              596
+            ],
+            "foot_r": [
+              11,
+              604,
+              12,
+              611
+            ],
+            "upper_arm_l": [
+              11,
+              622,
+              12,
+              628
+            ],
+            "upper_arm_r": [
+              11,
+              637,
+              12,
+              643
+            ],
+            "neck": [
+              12,
+              653
+            ],
+            "foot_l": [
+              12,
+              663
+            ],
+            "lower_arm_r": [
+              11,
+              674
+            ],
+            "hand_r": [
+              12,
+              680
+            ]
+          },
+          "slot": {
+            "spine": [
+              20,
+              686
+            ],
+            "panties": [
+              20,
+              692
+            ],
+            "bra": [
+              20,
+              698
+            ],
+            "eyes": [
+              20,
+              704
+            ],
+            "mouth": [
+              20,
+              710
+            ]
+          }
+        },
+        {
+          "duration": 60,
+          "playTimes": 0,
+          "name": "idle_quarter_front_view",
+          "zOrder": 716,
+          "offset": [
+            0,
+            576,
+            678
+          ],
+          "bone": {
+            "spine": [
+              11,
+              722,
+              12,
+              730
+            ],
+            "upper_leg_r": [
+              11,
+              736,
+              12,
+              742
+            ],
+            "upper_leg_l": [
+              11,
+              748,
+              12,
+              754
+            ],
+            "spine1": [
+              12,
+              760
+            ],
+            "lower_leg_l": [
+              12,
+              768
+            ],
+            "lower_leg_r": [
+              12,
+              776
+            ],
+            "upper_arm_r": [
+              12,
+              784
+            ],
+            "upper_arm_l": [
+              11,
+              790,
+              12,
+              796
+            ],
+            "foot_l": [
+              12,
+              804
+            ],
+            "foot_r": [
+              12,
+              810
+            ],
+            "lower_arm_r": [
+              12,
+              816
+            ],
+            "lower_arm_l": [
+              11,
+              824,
+              12,
+              830
+            ],
+            "head": [
+              12,
+              838
+            ],
+            "hand_r": [
+              12,
+              844,
+              13,
+              850
+            ],
+            "hand_l": [
+              12,
+              856
+            ],
+            "ik_rand_l": [
+              11,
+              864
+            ]
+          },
+          "slot": {
+            "panties": [
+              20,
+              872
+            ],
+            "bra": [
+              20,
+              878
+            ]
+          }
+        },
+        {
+          "duration": 14,
+          "playTimes": 0,
+          "name": "hug_quarter_front_view",
+          "zOrder": 884,
+          "offset": [
+            0,
+            656,
+            783
+          ],
+          "bone": {
+            "spine": [
+              11,
+              890,
+              12,
+              898
+            ],
+            "upper_leg_r": [
+              11,
+              904,
+              12,
+              911
+            ],
+            "upper_leg_l": [
+              11,
+              917,
+              12,
+              923
+            ],
+            "spine1": [
+              12,
+              929
+            ],
+            "lower_leg_l": [
+              12,
+              938
+            ],
+            "spine2": [
+              12,
+              944
+            ],
+            "lower_leg_r": [
+              12,
+              953
+            ],
+            "upper_arm_r": [
+              11,
+              959,
+              12,
+              966
+            ],
+            "upper_arm_l": [
+              11,
+              975,
+              12,
+              984
+            ],
+            "foot_l": [
+              12,
+              993
+            ],
+            "neck": [
+              12,
+              999
+            ],
+            "foot_r": [
+              11,
+              1008,
+              12,
+              1014
+            ],
+            "lower_arm_r": [
+              11,
+              1020,
+              12,
+              1029
+            ],
+            "lower_arm_l": [
+              11,
+              1035,
+              12,
+              1043
+            ],
+            "head": [
+              12,
+              1050
+            ],
+            "hand_r": [
+              11,
+              1056,
+              12,
+              1063,
+              13,
+              1070
+            ],
+            "ik_hand_r": [
+              11,
+              1076
+            ],
+            "ik_rand_l": [
+              11,
+              1085
+            ],
+            "ik_foot_l": [
+              11,
+              1094
+            ]
+          },
+          "slot": {
+            "panties": [
+              20,
+              1100
+            ],
+            "bra": [
+              20,
+              1106
+            ]
+          }
+        },
+        {
+          "duration": 14,
+          "playTimes": 0,
+          "name": "hug_quarter_back_view",
+          "zOrder": 1112,
+          "offset": [
+            0,
+            786,
+            1016
+          ],
+          "bone": {
+            "spine": [
+              11,
+              1118,
+              12,
+              1126
+            ],
+            "upper_leg_r": [
+              11,
+              1132,
+              12,
+              1138
+            ],
+            "upper_leg_l": [
+              11,
+              1144,
+              12,
+              1151
+            ],
+            "spine1": [
+              12,
+              1157
+            ],
+            "lower_leg_l": [
+              12,
+              1166
+            ],
+            "spine2": [
+              12,
+              1172
+            ],
+            "lower_leg_r": [
+              12,
+              1181
+            ],
+            "upper_arm_r": [
+              11,
+              1187,
+              12,
+              1194
+            ],
+            "upper_arm_l": [
+              11,
+              1203,
+              12,
+              1210
+            ],
+            "foot_l": [
+              12,
+              1219
+            ],
+            "neck": [
+              11,
+              1225,
+              12,
+              1231
+            ],
+            "foot_r": [
+              11,
+              1240,
+              12,
+              1246
+            ],
+            "lower_arm_r": [
+              11,
+              1252,
+              12,
+              1261
+            ],
+            "lower_arm_l": [
+              11,
+              1267,
+              12,
+              1274
+            ],
+            "head": [
+              12,
+              1280
+            ],
+            "hand_r": [
+              12,
+              1286,
+              13,
+              1292
+            ],
+            "hand_l": [
+              12,
+              1298
+            ],
+            "ik_hand_r": [
+              11,
+              1305
+            ],
+            "ik_rand_l": [
+              11,
+              1314
+            ],
+            "ik_foot_l": [
+              11,
+              1323
+            ]
+          },
+          "slot": {
+            "eyes": [
+              20,
+              1329
+            ],
+            "mouth": [
+              20,
+              1335
+            ]
+          }
+        },
+        {
+          "duration": 50,
+          "playTimes": 0,
+          "name": "talk_quarter_front_view",
+          "zOrder": 1341,
+          "offset": [
+            0,
+            908,
+            1213
+          ],
+          "bone": {
+            "spine": [
+              11,
+              1347,
+              12,
+              1353
+            ],
+            "upper_leg_r": [
+              11,
+              1359,
+              12,
+              1365
+            ],
+            "upper_leg_l": [
+              11,
+              1374,
+              12,
+              1380
+            ],
+            "spine1": [
+              12,
+              1388
+            ],
+            "lower_leg_l": [
+              12,
+              1399
+            ],
+            "lower_leg_r": [
+              12,
+              1405
+            ],
+            "upper_arm_r": [
+              11,
+              1411,
+              12,
+              1417
+            ],
+            "upper_arm_l": [
+              11,
+              1428,
+              12,
+              1439
+            ],
+            "foot_l": [
+              12,
+              1449
+            ],
+            "foot_r": [
+              12,
+              1455
+            ],
+            "lower_arm_r": [
+              12,
+              1461
+            ],
+            "lower_arm_l": [
+              11,
+              1467,
+              12,
+              1473
+            ],
+            "head": [
+              12,
+              1479
+            ],
+            "hand_r": [
+              12,
+              1485,
+              13,
+              1501
+            ],
+            "hand_l": [
+              12,
+              1507
+            ],
+            "ik_hand_r": [
+              11,
+              1523
+            ],
+            "ik_rand_l": [
+              11,
+              1537
+            ]
+          },
+          "slot": {
+            "panties": [
+              20,
+              1551
+            ],
+            "bra": [
+              20,
+              1557
+            ]
+          }
+        },
+        {
+          "duration": 50,
+          "playTimes": 0,
+          "name": "talk_quarter_back_view",
+          "zOrder": 1563,
+          "offset": [
+            0,
+            1076,
+            1406
+          ],
+          "bone": {
+            "spine": [
+              11,
+              1570,
+              12,
+              1576
+            ],
+            "upper_leg_r": [
+              11,
+              1582,
+              12,
+              1588
+            ],
+            "upper_leg_l": [
+              11,
+              1597,
+              12,
+              1605
+            ],
+            "spine1": [
+              12,
+              1613
+            ],
+            "lower_leg_l": [
+              12,
+              1624
+            ],
+            "lower_leg_r": [
+              12,
+              1630
+            ],
+            "upper_arm_r": [
+              11,
+              1636,
+              12,
+              1642
+            ],
+            "upper_arm_l": [
+              11,
+              1653,
+              12,
+              1659
+            ],
+            "foot_l": [
+              12,
+              1669
+            ],
+            "foot_r": [
+              12,
+              1675
+            ],
+            "lower_arm_r": [
+              11,
+              1681,
+              12,
+              1687
+            ],
+            "lower_arm_l": [
+              11,
+              1693,
+              12,
+              1699
+            ],
+            "head": [
+              12,
+              1705
+            ],
+            "hand_r": [
+              12,
+              1711,
+              13,
+              1727
+            ],
+            "hand_l": [
+              12,
+              1733
+            ],
+            "ik_hand_r": [
+              11,
+              1749
+            ],
+            "ik_rand_l": [
+              11,
+              1763
+            ]
+          },
+          "slot": {
+            "eyes": [
+              20,
+              1777
+            ],
+            "mouth": [
+              20,
+              1783
+            ]
+          }
+        },
+        {
+          "duration": 40,
+          "playTimes": 0,
+          "name": "hand_shaker_quarter_back_view",
+          "zOrder": 1789,
+          "offset": [
+            0,
+            1240,
+            1616
+          ],
+          "bone": {
+            "spine": [
+              11,
+              1795,
+              12,
+              1803
+            ],
+            "upper_leg_r": [
+              11,
+              1809,
+              12,
+              1815
+            ],
+            "upper_leg_l": [
+              11,
+              1821,
+              12,
+              1827
+            ],
+            "spine1": [
+              12,
+              1833
+            ],
+            "lower_leg_l": [
+              12,
+              1839
+            ],
+            "lower_leg_r": [
+              12,
+              1847
+            ],
+            "upper_arm_r": [
+              12,
+              1855
+            ],
+            "upper_arm_l": [
+              11,
+              1865,
+              12,
+              1871
+            ],
+            "foot_l": [
+              12,
+              1877
+            ],
+            "neck": [
+              11,
+              1883
+            ],
+            "foot_r": [
+              12,
+              1889
+            ],
+            "lower_arm_r": [
+              12,
+              1895
+            ],
+            "lower_arm_l": [
+              12,
+              1903
+            ],
+            "head": [
+              12,
+              1911
+            ],
+            "hand_r": [
+              11,
+              1917,
+              12,
+              1926,
+              13,
+              1934
+            ],
+            "ik_hand_r": [
+              11,
+              1940
+            ],
+            "ik_rand_l": [
+              11,
+              1953
+            ]
+          },
+          "slot": {
+            "eyes": [
+              20,
+              1961
+            ],
+            "mouth": [
+              20,
+              1967
+            ]
+          }
+        },
+        {
+          "duration": 40,
+          "playTimes": 0,
+          "name": "hand_shaker_quarter_from_view",
+          "zOrder": 1973,
+          "offset": [
+            0,
+            1342,
+            1743
+          ],
+          "bone": {
+            "spine": [
+              11,
+              1980,
+              12,
+              1988
+            ],
+            "upper_leg_r": [
+              11,
+              1994,
+              12,
+              2000
+            ],
+            "upper_leg_l": [
+              11,
+              2006,
+              12,
+              2012
+            ],
+            "spine1": [
+              12,
+              2018
+            ],
+            "lower_leg_l": [
+              12,
+              2024
+            ],
+            "lower_leg_r": [
+              12,
+              2032
+            ],
+            "upper_arm_r": [
+              12,
+              2040
+            ],
+            "upper_arm_l": [
+              11,
+              2050,
+              12,
+              2058
+            ],
+            "foot_l": [
+              12,
+              2066
+            ],
+            "neck": [
+              11,
+              2072
+            ],
+            "foot_r": [
+              12,
+              2078
+            ],
+            "lower_arm_r": [
+              12,
+              2084
+            ],
+            "lower_arm_l": [
+              11,
+              2092,
+              12,
+              2099
+            ],
+            "head": [
+              12,
+              2107
+            ],
+            "hand_r": [
+              12,
+              2113,
+              13,
+              2121
+            ],
+            "hand_l": [
+              11,
+              2127,
+              12,
+              2135
+            ],
+            "ik_hand_r": [
+              11,
+              2143
+            ],
+            "ik_rand_l": [
+              11,
+              2157,
+              12,
+              2165
+            ]
+          },
+          "slot": {
+            "panties": [
+              20,
+              2173
+            ],
+            "bra": [
+              20,
+              2179
+            ]
+          }
+        },
+        {
+          "duration": 21,
+          "playTimes": 0,
+          "name": "walk_quarter_front_view",
+          "zOrder": 2185,
+          "offset": [
+            0,
+            1468,
+            1915
+          ],
+          "bone": {
+            "spine": [
+              11,
+              2191
+            ],
+            "ik_hand_r": [
+              11,
+              2204
+            ],
+            "ik_foot_r": [
+              11,
+              2217,
+              12,
+              2230
+            ],
+            "ik_foot_l": [
+              11,
+              2239
+            ],
+            "ik_rand_l": [
+              11,
+              2251
+            ],
+            "upper_leg_l": [
+              11,
+              2262,
+              12,
+              2275
+            ],
+            "upper_leg_r": [
+              11,
+              2288,
+              12,
+              2300
+            ],
+            "lower_leg_r": [
+              11,
+              2313,
+              12,
+              2321
+            ],
+            "lower_leg_l": [
+              11,
+              2332,
+              12,
+              2340
+            ],
+            "spine2": [
+              12,
+              2351
+            ],
+            "foot_r": [
+              11,
+              2357,
+              12,
+              2363
+            ],
+            "upper_arm_l": [
+              11,
+              2375,
+              12,
+              2385
+            ],
+            "upper_arm_r": [
+              12,
+              2395
+            ],
+            "neck": [
+              12,
+              2407
+            ],
+            "foot_l": [
+              12,
+              2418
+            ],
+            "head": [
+              12,
+              2430
+            ],
+            "lower_arm_r": [
+              11,
+              2442,
+              12,
+              2448
+            ],
+            "hand_r": [
+              12,
+              2459
+            ],
+            "hand_l": [
+              11,
+              2471,
+              12,
+              2477
+            ]
+          },
+          "slot": {
+            "panties": [
+              20,
+              2488,
+              22,
+              2500
+            ],
+            "bra": [
+              20,
+              2494
+            ]
+          }
+        }
+      ],
+      "defaultActions": [
+        {
+          "name": "idle_quarter_back_view"
+        }
+      ],
+      "canvas": {
+        "x": 12,
+        "y": -103,
+        "width": 154,
+        "height": 226
+      }
+    },
+    {
+      "type": "MovieClip",
+      "frameRate": 24,
+      "name": "MovieClip",
+      "bone": [
+        {
+          "name": "root"
+        },
+        {
+          "name": "Armature",
+          "parent": "root"
+        },
+        {
+          "name": "spine",
+          "parent": "root"
+        }
+      ],
+      "slot": [
+        {
+          "displayIndex": -1,
+          "name": "Armature",
+          "parent": "Armature"
+        },
+        {
+          "displayIndex": -1,
+          "name": "spine",
+          "parent": "spine"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "Armature",
+              "display": [
+                {
+                  "type": "armature",
+                  "name": "Armature"
+                }
+              ]
+            },
+            {
+              "name": "spine",
+              "display": [
+                {
+                  "name": "spine"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "playTimes": 0,
+          "name": "animtion0",
+          "offset": [
+            5,
+            2688,
+            2266
+          ],
+          "bone": {
+            "Armature": [
+              11,
+              2511
+            ],
+            "spine": [
+              11,
+              2517
+            ]
+          }
+        }
+      ],
+      "defaultActions": [
+        {
+          "name": "animtion0"
+        }
+      ]
+    },
+    {
+      "type": "Sheet",
+      "frameRate": 24,
+      "name": "Sprite",
+      "bone": [
+        {
+          "name": "root"
+        }
+      ],
+      "slot": [
+        {
+          "displayIndex": -1,
+          "name": "sheetSlot",
+          "parent": "root"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "sheetSlot"
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "playTimes": 0,
+          "name": "Sprite",
+          "offset": [
+            5,
+            2692,
+            2270
+          ]
+        }
+      ],
+      "defaultActions": [
+        {
+          "name": "Sprite"
+        }
+      ]
+    }
+  ],
+  "offset": [
+    0,
+    4160,
+    4160,
+    10636,
+    14796,
+    12,
+    14808,
+    10768,
+    25576,
+    4540,
+    30116,
+    5048,
+    35164,
+    0
+  ]
+}
